@@ -1,0 +1,41 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #31373bc2;
+    padding: 12px 20%;
+    color: #fff;
+    display: grid;
+    grid-template: 1fr/1fr 1fr;
+    
+}
+span{
+    display: block;
+    border: 2px solid var(#1170af);
+    color: #1170af;
+    padding: 4px 6px;
+}  
+.options > li{
+    width: 200px;
+    display: grid;
+    grid-template: 1fr/1fr/2fr/1fr;
+}
+.section_1{
+    background-image: url(/img/Fondo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}
